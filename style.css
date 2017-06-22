@@ -1,0 +1,113 @@
+body {
+	font-family: 'PT Serif', serif;
+}
+
+nav {
+	background:rgb(74, 74, 74);
+	height: 55px;
+}
+
+div.vertical-line {
+      width: 1px;
+      background-color: #777777;
+      height: 30px;
+      float:right;
+      position:relative;
+      top:-27px;
+      left:10px;
+}
+
+.nav1 {
+	margin:10px;
+}
+
+.nav2 {
+	position:relative;
+	left:460px;
+}
+
+.nav3 {
+	display:inline-block;
+	height:30px;
+	width:75px;
+	background-color:white;
+	position:relative;
+	left:471px;
+	top:-3px;
+	border-radius:3px;
+	text-align:center;
+
+}
+
+#S {
+	display:inline-block;
+	height:40px;
+	width:40px;
+	background-color:#FA5858;
+	text-align:center;
+	line-height: 40px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+#signup {
+	position:relative;
+	color: rgb(74, 74, 74);
+	top:2px;
+
+}
+
+a {
+	color:white;
+    text-decoration: none;
+    font-size:20px;
+}
+
+ul {
+	float:right;
+	list-style:none;
+	position:relative;
+	right:190px;
+
+}
+
+
+li {
+	display:inline;
+}
+
+#container {
+	margin-top:150px;
+    width:100%;
+    text-align: center;
+    /*istrazi transform: translateY*/
+    /*pozicionira container sa kutijama na sredinu ekrana, cak i dok smanjujem prozor*/
+}
+
+.box {
+	height:150px;
+	width:200px;
+	border: 1px solid #242424;
+	padding:20px;
+	border-radius: 8px;
+	display: inline-block;
+	margin:30px;
+	/*"display: inline-block" mi sada dozvoljava da koristim "text-align: center" u containeru na ovaj inace block level element;*/
+}
+
+.circle {
+	border-radius:50%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+    top: -55px;
+	width:65px;
+    height:65px;
+    background:black
+}
+
+.text {
+	position: relative;
+	top:-55px;
+	text-align: left;
+}
